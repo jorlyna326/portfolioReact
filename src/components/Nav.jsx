@@ -12,7 +12,7 @@ export default function NavContainer() {
     // </nav>
     <Navbar expand="lg" style={{backgroundColor: 'transparent', zIndex: '999',}}>
       <Container>
-        <Navbar.Brand href="#home" className='permMark'>Jorlyna Pujols</Navbar.Brand>
+        <Navbar.Brand href="/" className='permMark'>Jorlyna Pujols</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

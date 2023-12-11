@@ -11,9 +11,9 @@ export default function Projects() {
     },
     {
       name: "Sweet Dreams",
-      img: '',
-      description: '',
-      url: '#'
+      img: 'https://github.com/jorlyna326/portfolioReact/blob/main/src/assets/images/sweetdream.png?raw=true',
+      description: "Struggling to get a good night's sleep? We recommend to try a Sweet Dreams app. It can be a helpful tool for improving sleep quality and overall health and well-being.",
+      url: 'https://sweetdreamsproject-8e54b05db96b.herokuapp.com/'
     },
     {
       name: "Love Link",

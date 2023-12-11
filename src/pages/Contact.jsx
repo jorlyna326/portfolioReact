@@ -2,7 +2,13 @@ import "../assets/styles/contact.css";
 
 export default function Contact() {
   return (
-    <section className="contact sec-pad dynamicBg">
+    <section className="contact sec-pad dynamicBg"  style={{
+      justifyContent: "space-around",
+      flexWrap: "wrap",
+      alignItems: "center",
+      backgroundColor: "white",
+      margin: "0",
+    }}>
       <div className="main-container">
         <h2 className="heading heading-sec heading-sec__mb-med">
           <span className="heading-sec__main heading-sec__main--lt">
