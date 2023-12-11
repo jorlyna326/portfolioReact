@@ -5,7 +5,7 @@ export default function Projects() {
   const items = [
     {
       name: "ListyFlix",
-      img: 'https://github.com/ThatZiro/Listy-Flix/blob/main/README_Assets/README-SneakPeak.png?raw=true',
+      img: 'https://github.com/jorlyna326/portfolioReact/blob/main/src/assets/images/listyflix.png?raw=true',
       description: 'ListyFlix is your ultimate partner for movie night planning, ensuring a hassle-free and memorable cinematic experience with friends and family. Are you tired of spending hours searching for the perfect film to watch? ListyFlix has you covered! Our platform makes it a breeze to discover the ideal movie for your evening, providing detailed information on where to stream it. Plus, you can create personalized movie night lists to keep track of your favorite films.',
       url: 'https://thatziro.github.io/Listy-Flix/'
     },
