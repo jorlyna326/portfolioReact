@@ -9,6 +9,7 @@ import Projects from './pages/Projects.jsx';
 // FONTS
 import './assets/fonts/DancingScript-VariableFont_wght.ttf'
 import './assets/fonts/Bungee-Regular.ttf'
+import './assets/fonts/BungeeOutline-Regular.ttf'
 import './assets/fonts/Pacifico-Regular.ttf'
 import './assets/fonts/PermanentMarker-Regular.ttf'
 

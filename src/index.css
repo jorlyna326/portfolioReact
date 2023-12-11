@@ -3,11 +3,63 @@
     src: local('Dancing'),
     url('./assets/fonts/DancingScript-VariableFont_wght.ttf');
 }
-
-.dancing{
-    font-family: 'Dancing';
+@font-face {
+    font-family: 'Bungee-Regular';
+    src: local('Bungee-Regular'),
+    url('./assets/fonts/Bungee-Regular.ttf');
 }
+@font-face {
+    font-family: 'Bungee-Outline';
+    src: local('Bungee-Outline'),
+    url('./assets/fonts/BungeeOutline-Regular.ttf');
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: local('Pacifico'),
+    url('./assets/fonts/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: 'PermanentMarker';
+    src: local('PermanentMarker'),
+    url('./assets/fonts/PermanentMarker-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PermanentMarker';
+}
+
+.permMark{
+    font-family: 'PermanentMarker';
+}
+
+.bungeeReg{
+    font-family: 'Bungee-Regular';
+}
+
+.bungeeOut {
+    font-family: 'Bungee-Outline';
+}
+
 
 body{
     background-color: #ACDDB5 ;
+}
+
+.sec-pad {
+    padding: 12rem 0;
+}
+
+.main-container {
+    max-width: 120rem;
+    margin: auto;
+    width: 92%;
+}
+
+.heading-sec__mb-bg {
+    margin-bottom: 11rem;
 }
