@@ -1,12 +1,22 @@
 import { Col, Container, Row } from "react-bootstrap";
 import jProfile from "../assets/images/profile.png";
+import { IoLogoJavascript } from "react-icons/io5";
+import { TfiHtml5 } from "react-icons/tfi";
+import { FaReact } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { MdDevices } from "react-icons/md";
+import { IoTerminal } from "react-icons/io5";
+
+
+
+
 
 import "../assets/styles/about.css";
 
 export default function About() {
   return (
-
-
 <section
 class="about "
 style={{
@@ -94,18 +104,20 @@ style={{
     <div class="about__content-skills">
       <h3 class="about__content-title">My Skills</h3>
       <div class="skills">
-        <div class="skills__skill">HTML</div>
-        <div class="skills__skill">CSS</div>
-        <div class="skills__skill">JavaScript</div>
-        <div class="skills__skill">React</div>
-        <div class="skills__skill">SASS</div>
-        <div class="skills__skill">GIT</div>
-        <div class="skills__skill">Github</div>
-        <div class="skills__skill">Responsive Design</div>
-        <div class="skills__skill">SEO</div>
-        <div class="skills__skill">Terminal</div>
+        <div class="skills__skill"><TfiHtml5 /></div>
+        <div class="skills__skill"><FaCss3Alt /></div>
+        <div class="skills__skill"><IoLogoJavascript /></div>
+        <div class="skills__skill"><FaReact /></div>
+        <div class="skills__skill"><FaGitAlt /></div>
+        <div class="skills__skill"><FaGithub /></div>
+        <div class="skills__skill"><MdDevices /></div>
+        <div class="skills__skill"><IoTerminal /></div>
         <div class="skills__skill">Express Basics</div>
         <div class="skills__skill">SQL Basics</div>
+        <div class="skills__skill">Insomnia</div>
+        <div class="skills__skill">Mongo</div>
+        <div class="skills__skill">Apollo</div>
+        <div class="skills__skill">Mongoose</div>
       </div>
     </div>
   </div>
