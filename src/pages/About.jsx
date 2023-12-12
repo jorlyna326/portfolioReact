@@ -82,11 +82,7 @@ style={{
     <div class="about__content-main">
       <h3 class="about__content-title">Get to know me!</h3>
       <div class="about__content-details">
-        <p class="about__content-details-para">
-          write about me
-          <strong></strong>
-          <strong></strong>.
-        </p>
+        
          <div class ="about__content-details-para">
          I am a recent graduate from the University of Central Florida's coding bootcamp, now venturing into the dynamic realm of Full Stack Web Development. Drawing from 10 years of background in Account Executive and Management roles, I bring a unique blend of strategic thinking and leadership skills to my technical expertise. I am a tenacious problem solver, dedicated to continuous learning and growth. My resilience, unwavering perseverance, and genuine kindness define my approach to challenges, while my collaborative spirit ensures seamless teamwork. As I embark on this exciting journey, I am eager to contribute my skills and passion for innovation to projects that inspire creativity and drive positive change.
           </div>  
