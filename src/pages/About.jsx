@@ -5,58 +5,7 @@ import "../assets/styles/about.css";
 
 export default function About() {
   return (
-    // <Container
-    //   style={{
-    //     justifyContent: "space-around",
-    //     flexWrap: "wrap",
-    //     alignItems: "center",
-    //     backgroundColor: "white",
-    //     margin: "0",
-    //   }}
-    // >
-    //   <Row style={{ width: "94vw", boxShadow: "0 0 7px lightgray" }}>
-    //     <Col
-    //       md={6}
-    //       style={{
-    //         display: "flex",
-    //         flexDirection: "column",
-    //         alignItems: "center",
-    //         justifyContent: "center",
-    //         backgroundColor: "transparent",
-    //       }}
-    //     >
-    //       <h1 className="bungeeReg">
-    //         <span className="bungeeOut">JOR</span>LYNA
-    //       </h1>
-    //       <p>say something nice...</p>
-    //       <div>
-    //         <a href="#" className="mx-2">
-    //           Facebook
-    //         </a>
-    //         <a href="#" className="mx-2">
-    //           Facebook
-    //         </a>
-    //         <a href="#" className="mx-2">
-    //           Facebook
-    //         </a>
-    //       </div>
-    //     </Col>
-    //     <Col
-    //       md={6}
-    //       style={{
-    //         display: "flex",
-    //         justifyContent: "center",
-    //         backgroundColor: "gray",
-    //         borderTopLeftRadius: "10rem",
-    //         borderBottomLeftRadius: "10rem",
-    //       }}
-    //     >
-    //       <img src={jProfile} alt="temp" width={300} />
-    //     </Col>
-    //   </Row>
-           
-     
-    // </Container>
+
 
 <section
 class="about "
@@ -133,30 +82,14 @@ style={{
     <div class="about__content-main">
       <h3 class="about__content-title">Get to know me!</h3>
       <div class="about__content-details">
-        {/* <p class="about__content-details-para">
+        <p class="about__content-details-para">
           write about me
           <strong></strong>
           <strong></strong>.
         </p>
-        <p class="about__content-details-para">
-          write about me <strong></strong> so
-          
-          <a
-            rel="noreferrer"
-            href="#"
-            target="_blank"
-          >
-            Linkedin
-          </a>
-          where I post useful content related to Web Development and
-          Programming
-        </p>
-        <p class="about__content-details-para">
-          I'm open to <strong>Job</strong> opportunities where I can
-          contribute, learn and grow. If you have a good opportunity
-          that matches my skills and experience then don't hesitate to
-          <strong>contact</strong> me.
-        </p> */}
+         <div class ="about__content-details-para">
+         I am a recent graduate from the University of Central Florida's coding bootcamp, now venturing into the dynamic realm of Full Stack Web Development. Drawing from 10 years of background in Account Executive and Management roles, I bring a unique blend of strategic thinking and leadership skills to my technical expertise. I am a tenacious problem solver, dedicated to continuous learning and growth. My resilience, unwavering perseverance, and genuine kindness define my approach to challenges, while my collaborative spirit ensures seamless teamwork. As I embark on this exciting journey, I am eager to contribute my skills and passion for innovation to projects that inspire creativity and drive positive change.
+          </div>  
       </div>
       <a href="/contact" class="btn btn--med btn--theme dynamicBgClr">
         Contact
