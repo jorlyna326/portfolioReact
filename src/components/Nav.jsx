@@ -5,11 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function NavContainer() {
   return (
-    // <nav>
-    //     <a href="/">About</a>
-    //     <a href="/projects">Projects</a>
-    //     <a href="/contact">Contact</a>
-    // </nav>
+
     <Navbar expand="lg" style={{backgroundColor: 'transparent', zIndex: '999',}}>
       <Container>
         <Navbar.Brand href="/" className='permMark'>Jorlyna Pujols</Navbar.Brand>
